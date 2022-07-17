@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="88"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Dexterity;Wisdom"/>
+                    <attribute id="ClassUUID" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232b"/>
+                    <attribute id="Level" type="int32" value="4"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="LSString" value="FeatASI"/>
+                    <attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f2947f97b"/>
+                    <attribute id="UUID" type="guid" value="141c4dbb-7b6a-4e88-9640-0d347d1aee6b"/>
+                </node>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Dexterity;Wisdom"/>
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="Level" type="int32" value="4"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="LSString" value="FeatASI"/>
+                    <attribute id="SubclassUUID" type="guid" value="7edf660c-6d48-46f0-bbd1-19cdf9da2e0f"/>
+                    <attribute id="TableUUID" type="guid" value="5be8ccd2-4e31-4456-8116-b884d21910f5"/>
+                    <attribute id="UUID" type="guid" value="d61ca317-4609-4e3e-b0df-de105cf3b500"/>
+                </node>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Dexterity;Wisdom"/>
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="Level" type="int32" value="4"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="LSString" value="FeatASI"/>
+                    <attribute id="SubclassUUID" type="guid" value="e2b004ed-5eb4-4db1-8b26-053a0d4143fd"/>
+                    <attribute id="TableUUID" type="guid" value="dd913306-280c-4b27-a1de-b24d323a49e8"/>
+                    <attribute id="UUID" type="guid" value="d61ca317-4609-4e3e-b0df-de105cf3b501"/>
+                </node>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Dexterity;Wisdom"/>
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="Level" type="int32" value="4"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="LSString" value="FeatASI"/>
+                    <attribute id="SubclassUUID" type="guid" value="ceac6185-dc49-4f70-8cdc-d18fca04c2ea"/>
+                    <attribute id="TableUUID" type="guid" value="44074867-c350-46a0-9dc6-5bfb2325dda7"/>
+                    <attribute id="UUID" type="guid" value="d61ca317-4609-4e3e-b0df-de105cf3b502"/>
+                </node>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Dexterity;Wisdom"/>
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="Level" type="int32" value="4"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="LSString" value="FeatASI"/>
+                    <attribute id="SubclassUUID" type="guid" value="08e7b646-3bf1-4ae4-8c8a-4cd24666227b"/>
+                    <attribute id="TableUUID" type="guid" value="91d7c558-5e3a-4e0f-8447-112b5d1689f5"/>
+                    <attribute id="UUID" type="guid" value="d61ca317-4609-4e3e-b0df-de105cf3b503"/>
+                </node>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Dexterity;Wisdom"/>
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="Level" type="int32" value="4"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="LSString" value="FeatASI"/>
+                    <attribute id="SubclassUUID" type="guid" value="eadad979-9344-40f3-ae5e-18bdb8b4404c"/>
+                    <attribute id="TableUUID" type="guid" value="af3cab2f-4d9b-48ee-b282-bec5bbe9109f"/>
+                    <attribute id="UUID" type="guid" value="d61ca317-4609-4e3e-b0df-de105cf3b504"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

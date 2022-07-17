@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="88"/>
+    <region id="ConditionErrors">
+        <node id="root">
+            <children>              
+	<node id="ConditionErrors">
+                    <attribute id="DisplayName" type="FixedString" value="MartialArtsDieD4Error"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_A_Grounded_False"/>
+                    <attribute id="UUID" type="guid" value="cc3df335-f4c0-47c7-ad27-ece972f34633"/>
+                </node>
+	<node id="ConditionErrors">
+                    <attribute id="DisplayName" type="FixedString" value="MartialArtsDieD6Error"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_A_Grounded_False"/>
+                    <attribute id="UUID" type="guid" value="1b588064-b1b8-4c8a-875a-db3e821c29bc"/>
+                </node>
+	<node id="ConditionErrors">
+                    <attribute id="DisplayName" type="FixedString" value="MartialArtsDieD8Error"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_A_Grounded_False"/>
+                    <attribute id="UUID" type="guid" value="3f129673-aa89-4d07-9dc7-486fedb0cadb"/>
+                </node>
+	<node id="ConditionErrors">
+                    <attribute id="DisplayName" type="FixedString" value="MartialArtsDieD10Error"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_A_Grounded_False"/>
+                    <attribute id="UUID" type="guid" value="7c7558c7-7ba9-4e1d-8519-a38f3036563e"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,1020 @@
+EVENTS
+
+EVENT ApplyStatusToItem
+VARS
+	CHARACTER:_Character
+	ITEM:_Item
+	ITEMTEMPLATE:_Template
+	INT:_Result
+ON
+	OnItemEquipped(_Character, _Item)
+ACTIONS
+	IF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "3186796d-3ab3-4d49-bfc2-cba1aff0cf5a")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)
+	ELIF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template) 
+		IsEqual(_Template, "96e2abaf-78ff-4dcb-a6a3-a5f0c348bd9f")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)
+	ELIF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template) 
+		IsEqual(_Template, "2fa18ee4-92df-486f-97d2-dd0a720b6fad")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)	
+	ELIF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template) 
+		IsEqual(_Template, "48b4f49b-2937-4664-ac87-7db2c64d09c9")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)	
+	ELIF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template) 
+		IsEqual(_Template, "baa8bd91-09ec-4c92-a0e1-4a5a9d4ea8ed")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)
+	ELIF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template) 
+		IsEqual(_Template, "4893bf4e-97e1-48e0-ada8-6bbf115ad68b")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)			
+	ELIF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template) 
+		IsEqual(_Template, "13f6ff0c-08c4-4e9f-a624-511389b68dc2")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)	
+	ELIF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template) 
+		IsEqual(_Template, "28b38ae1-8d66-4d8e-a4f0-5d4c6c342c59")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)	
+	ELIF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template) 
+		IsEqual(_Template, "50c43f27-a12e-412c-88f0-56e15eba692a")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)	
+	ELIF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template) 
+		IsEqual(_Template, "53d6be1b-eac1-4b88-83ab-ba17956eca57")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)		
+	ELIF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template)
+		IsEqual(_Template, "d9c87013-1f41-4c17-b71d-f353ec0d64e8")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)
+	ELIF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template)
+		IsEqual(_Template, "19ce6720-03b6-4d22-bf35-4963b510d1da")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)
+	ELIF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template)
+		IsEqual(_Template, "99f3b2d9-e03d-4cd5-9a67-5435a95682da")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)
+	ELIF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template)
+		IsEqual(_Template, "494f21ac-5a1b-4e91-bd30-551b79532516")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)
+	ELIF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template)
+		IsEqual(_Template, "0a7adc8d-b561-4f81-a8f2-ec07b5d54955")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)
+	ELIF "c1&c2&c3"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, _Template)
+		IsEqual(_Template, "46b64a36-8446-45bd-98e8-ee81e3136baa")
+	THEN
+		DisplayText(_Character,"Monk Weapon")
+		ItemApplyStatus(_Item, "MONKWEAPON",-1)
+	ENDIF
+
+EVENT RemoveStatusFromItem
+VARS
+	CHARACTER:_Character
+	ITEM:_Item
+	INT:_Result
+ON
+	OnItemUnequipped(_Character, _Item)
+ACTIONS
+	IF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "3186796d-3ab3-4d49-bfc2-cba1aff0cf5a")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, "96e2abaf-78ff-4dcb-a6a3-a5f0c348bd9f")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, "2fa18ee4-92df-486f-97d2-dd0a720b6fad")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, "d9c87013-1f41-4c17-b71d-f353ec0d64e8")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, "48b4f49b-2937-4664-ac87-7db2c64d09c9")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, "4893bf4e-97e1-48e0-ada8-6bbf115ad68b")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, "53d6be1b-eac1-4b88-83ab-ba17956eca57")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, "13f6ff0c-08c4-4e9f-a624-511389b68dc2")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, "baa8bd91-09ec-4c92-a0e1-4a5a9d4ea8ed")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, "28b38ae1-8d66-4d8e-a4f0-5d4c6c342c59")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, "50c43f27-a12e-412c-88f0-56e15eba692a")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, "19ce6720-03b6-4d22-bf35-4963b510d1da")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, "99f3b2d9-e03d-4cd5-9a67-5435a95682da")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, "494f21ac-5a1b-4e91-bd30-551b79532516")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, "0a7adc8d-b561-4f81-a8f2-ec07b5d54955")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")
+		ItemGetTemplate(_Item, "46b64a36-8446-45bd-98e8-ee81e3136baa")
+	THEN
+		ItemRemoveStatus(_Item, "MONKWEAPON")
+	ENDIF
+
+EVENT DeflectMissiles_Proc
+VARS
+CHARACTER:_Character
+CHARACTER:_Source
+FLOAT:_Int
+FLOAT:_Dex
+
+ON
+	OnCharacterStatusApplied(_Character,DMSTATUS)
+ACTIONS
+	IF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,12)
+		IsEqual(_Int,13)
+		IsEqual(_Lvl,3)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_4,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,14)
+		IsEqual(_Int,15)
+		IsEqual(_Lvl,3)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_5,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,16)
+		IsEqual(_Int,17)
+		IsEqual(_Lvl,3)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_6,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,18)
+		IsEqual(_Int,19)
+		IsEqual(_Lvl,3)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_7,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,20)
+		IsEqual(_Int,21)
+		IsEqual(_Lvl,3)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_8,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,12)
+		IsEqual(_Int,13)
+		IsEqual(_Lvl,4)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_5,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,14)
+		IsEqual(_Int,15)
+		IsEqual(_Lvl,4)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_6,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,16)
+		IsEqual(_Int,17)
+		IsEqual(_Lvl,4)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_7,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,18)
+		IsEqual(_Int,19)
+		IsEqual(_Lvl,4)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_8,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,20)
+		IsEqual(_Int,21)
+		IsEqual(_Lvl,4)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_9,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,13)
+		IsEqual(_Int,14)
+		IsEqual(_Lvl,5)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_6,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,14)
+		IsEqual(_Int,15)
+		IsEqual(_Lvl,5)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_7,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,16)
+		IsEqual(_Int,17)
+		IsEqual(_Lvl,5)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_8,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,18)
+		IsEqual(_Int,19)
+		IsEqual(_Lvl,5)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_9,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,20)
+		IsEqual(_Int,21)
+		IsEqual(_Lvl,5)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_10,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,12)
+		IsEqual(_Int,13)
+		IsEqual(_Lvl,6)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_7,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,14)
+		IsEqual(_Int,15)
+		IsEqual(_Lvl,6)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_8,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,16)
+		IsEqual(_Int,17)
+		IsEqual(_Lvl,6)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_9,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,18)
+		IsEqual(_Int,19)
+		IsEqual(_Lvl,6)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_10,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,20)
+		IsEqual(_Int,21)
+		IsEqual(_Lvl,6)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_11,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,13)
+		IsEqual(_Int,14)
+		IsEqual(_Lvl,7)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_8,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,14)
+		IsEqual(_Int,15)
+		IsEqual(_Lvl,7)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_9,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,16)
+		IsEqual(_Int,17)
+		IsEqual(_Lvl,7)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_10,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,18)
+		IsEqual(_Int,19)
+		IsEqual(_Lvl,7)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_11,1)
+	ELIF	"c1&c2&c3&(c4|c5)&c6"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsEqual(_Int,20)
+		IsEqual(_Int,21)
+		IsEqual(_Lvl,7)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_12,1)
+	ELIF	"c1&c2&c3&c4&c5"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsGreaterThen(_Int,21)
+		IsEqual(_Lvl,3)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_8,1)
+	ELIF	"c1&c2&c3&c4&c5"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsGreaterThen(_Int,21)
+		IsEqual(_Lvl,4)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_9,1)
+	ELIF	"c1&c2&c3&c4&c5"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsGreaterThen(_Int,21)
+		IsEqual(_Lvl,5)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_10,1)
+	ELIF	"c1&c2&c3&c4&c5"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsGreaterThen(_Int,21)
+		IsEqual(_Lvl,6)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_11,1)
+	ELIF	"c1&c2&c3&c4&c5"
+		CharacterGetStatusSourceCharacter(_Character,DMSTATUS,_Source)
+		CharacterGetStat(_Int,_Source,Dexterity)	
+		CharacterGetStat(_Lvl,_Source,Level)
+		IsGreaterThen(_Int,21)
+		IsGreaterThen(_Lvl,6)
+	THEN
+		CharacterApplyStatus(_Character,DMSTATUS_12,1)
+	ENDIF
+
+EVENT MONK_CheckForDreamFlag
+VARS
+	CHARACTER:_Player
+	INT:_Count
+	INT:_PartySize
+ON
+	OnGlobalFlagSet("NIGHT_DaisyDream1")
+ACTIONS
+	IF "c1"
+		GetPlayerCount(_PartySize)
+	THEN
+		GetPlayerByIndex(_Player, _Count)
+		Set(_Count, INT:0)
+		WHILE "c1"
+			IsLessThen(_Count, _PartySize)
+		DO
+			IF "c1&c2"
+				GetPlayerByIndex(_Player, _Count)
+				IsTagged(_Player, "MONK")
+			THEN
+				CharacterApplyStatus(_Player,"MONK_TADPOLE_UNLOCKED", -1)
+			ENDIF
+			Add(_Count, INT:1)
+		ENDWHILE
+	ENDIF
+
+EVENT ApplyKenseiToItem
+VARS
+	CHARACTER:_Character
+	ITEM:_Item
+	ITEMTEMPLATE:_Template
+	INT:_Result
+ON
+	OnItemEquipped(_Character, _Item)
+ACTIONS
+	IF 	"c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_BAXE")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "a086b825-8f17-4f0e-855b-178f8cdc515a")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_CLUB")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "d9c87013-1f41-4c17-b71d-f353ec0d64e8")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_DAGGER")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "569b0f3d-abcd-4b01-aaf0-979091288163")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_FLAIL")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "9eadef92-5dd0-408e-9b55-1cf791cafe9d")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_GCLUB")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "19ce6720-03b6-4d22-bf35-4963b510d1da")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_HAXE")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "46b64a36-8446-45bd-98e8-ee81e3136baa")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_JAV")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "0a7adc8d-b561-4f81-a8f2-ec07b5d54955")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_LHAM")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "494f21ac-5a1b-4e91-bd30-551b79532516")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_LSWD")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "1865323f-b428-4791-a0a9-578841e57463")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_MACE")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "3186796d-3ab3-4d49-bfc2-cba1aff0cf5a")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_MSTAR")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "26a9fba6-1a60-4691-84ea-da7ffcb304e0")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_QSTAF")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "96e2abaf-78ff-4dcb-a6a3-a5f0c348bd9f")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_RAP")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "7061f489-4b13-4982-aa09-cf0ad961e75f")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_SCIM")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "868217db-9dcb-414c-bb88-e321ab3e0349")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_SCIM")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "7cc7a0e1-d0b8-4569-afb2-d538e8941894")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)	
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_SSWD")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "467ddb4f-6791-41fa-99f7-ee8620d63bbe")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_SKL")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "50d677ed-3a0e-40e9-8291-ee6823af5672")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_SPEAR")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "9f0f1c0e-012d-44e1-9b29-86c64d2bf675")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_SPEAR")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "158e6f29-89e9-4279-8f8f-85078f047225")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)	
+	ELIF	"c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_TRID")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "d3807461-7c32-44ae-9aba-49ef4d3bf35e")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_WHAM")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "6b17998d-2e79-405d-8b1f-beb53658312f")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_WHAM")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "3e1b3db9-036e-4931-ab92-c3730a1c3d5f")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)	
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_WHAM")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "37a29c63-3fcd-43bd-8021-c363dcc852bc")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_WHAM")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "4d1f9bce-1884-47d0-a420-69417f397139")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)		
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_WPCK")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "a088775a-8f75-42f2-aa74-76a3f80701fa")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_DART")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "fb08eef6-f6a0-454e-ab14-c1470f3ba18d")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_HXBOW")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "a5d843ab-c3af-4e60-a925-bb2e15828938")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_LXBOW")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "43b7fbf5-7f6e-4e9e-bce7-c679eea44593")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_SBOW")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "c5403c1d-f372-43e1-927a-9189e9e3545d")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_LBOW")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "86e3d864-309c-4c17-ba38-877ce487d481")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_LBOW")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "049173ec-636a-487e-a9ed-bfafeadf6bb7")
+	THEN
+		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)	
+	ELIF "c1&c2&c3&c4"
+		IsTagged(_Character, "MONK")
+		CharacterHasStatus(_Character, "KW_SLNG")
+		ItemGetTemplate(_Item, _Template)    
+		IsEqual(_Template, "d31af642-ae35-4f22-b7a6-100f3048be33")
+   	 THEN
+       		DisplayText(_Character,"Kensei Weapon")
+		ItemApplyStatus(_Item, "KENSEIWEAPON",-1)
+	ENDIF
+		
+EVENT RemoveKenseiFromItem
+VARS
+	CHARACTER:_Character
+	ITEM:_Item
+	INT:_Result
+ON
+	OnItemUnequipped(_Character, _Item)
+ACTIONS
+	IF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "a086b825-8f17-4f0e-855b-178f8cdc515a")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "d9c87013-1f41-4c17-b71d-f353ec0d64e8")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")		
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "569b0f3d-abcd-4b01-aaf0-979091288163")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")		
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "fb08eef6-f6a0-454e-ab14-c1470f3ba18d")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")		
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "9eadef92-5dd0-408e-9b55-1cf791cafe9d")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")		
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "19ce6720-03b6-4d22-bf35-4963b510d1da")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "46b64a36-8446-45bd-98e8-ee81e3136baa")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "37a29c63-3fcd-43bd-8021-c363dcc852bc")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "a5d843ab-c3af-4e60-a925-bb2e15828938")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "0a7adc8d-b561-4f81-a8f2-ec07b5d54955")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")		
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "43b7fbf5-7f6e-4e9e-bce7-c679eea44593")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "494f21ac-5a1b-4e91-bd30-551b79532516")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")		
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "ff93ba9c-124c-454e-ac8c-436c136bcef2")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "1865323f-b428-4791-a0a9-578841e57463")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")		
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "3186796d-3ab3-4d49-bfc2-cba1aff0cf5a")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")		
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "26a9fba6-1a60-4691-84ea-da7ffcb304e")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")		
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "96e2abaf-78ff-4dcb-a6a3-a5f0c348bd9f")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "7061f489-4b13-4982-aa09-cf0ad961e75f")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")		
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "868217db-9dcb-414c-bb88-e321ab3e0349")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "7cc7a0e1-d0b8-4569-afb2-d538e8941894")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "40f8dd34-362d-40f5-8d1f-d06abde77026")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")		
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "40f8dd34-362d-40f5-8d1f-d06abde77026")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")			
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "c5403c1d-f372-43e1-927a-9189e9e3545d")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")		
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "467ddb4f-6791-41fa-99f7-ee8620d63bbe")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "50d677ed-3a0e-40e9-8291-ee6823af5672")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")		
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "d31af642-ae35-4f22-b7a6-100f3048be33")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")		
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "9f0f1c0e-012d-44e1-9b29-86c64d2bf675")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "158e6f29-89e9-4279-8f8f-85078f047225")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "86e3d864-309c-4c17-ba38-877ce487d481")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "049173ec-636a-487e-a9ed-bfafeadf6bb7")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "d3807461-7c32-44ae-9aba-49ef4d3bf35e")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")		
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "6b17998d-2e79-405d-8b1f-beb53658312f")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "3e1b3db9-036e-4931-ab92-c3730a1c3d5f")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")	
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "4d1f9bce-1884-47d0-a420-69417f397139")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")
+	ELIF "c1&c2"
+		IsTagged(_Character, "MONK")  
+		ItemGetTemplate(_Item, "a088775a-8f75-42f2-aa74-76a3f80701fa")
+	THEN
+		ItemRemoveStatus(_Item, "KENSEIWEAPON")
+	ENDIF
+
+EVENT ApplyMartialArts
+VARS
+	CHARACTER:_Character
+	FLOAT:_Dex
+	FLOAT:_Str
+	INT:_Result
+ON
+	OnItemEquipped(_Character, _Item)
+	OnItemUnequipped(_Characer, _Item)
+	OnTurn(_Character)
+	OnCharacterVitalityChanged(_Character,_)
+ACTIONS
+	IF  "c1&c2&c3&(c4|c5)&!c6"
+		 IsTagged(_Character, "MONK")
+		CharacterGetStat(_Dex,_Character,Dexterity)
+		CharacterGetStat(_Str,_Character,Strength)
+		IsEqual(_Dex,_Str)
+		IsGreaterThen(_Str,_Dex)
+		CharacterHasStatus(_Character,"MARTS_STR")
+	THEN
+		CharacterApplyStatus(_Character, "MARTS_STR",-1)
+		CharacterRemoveStatus(_Character,"MARTS_DEX")
+		DisplayText(_Character,"MartialArts Strength")
+	ELIF "c1&c2&c3&c4&!c5"
+		IsTagged(_Character, "MONK")
+		CharacterGetStat(_Dex,_Character,Dexterity)
+		CharacterGetStat(_Str,_Character,Strength)
+		IsGreaterThen(_Dex,_Str)
+		CharacterHasStatus(_Character,"MARTS_DEX")
+	THEN
+		CharacterApplyStatus(_Character,"MARTS_DEX",-1)
+		CharacterRemoveStatus(_Character,"MARTS_STR",-1)
+		DisplayText(_Character,"MartialArts Dexterity")
+	ENDIF
+
+// Monk Tadpole Power
+
+EVENT homebrewfeatures_FindMonkAfterDreamScene
+VARS
+	CHARACTER:_Character
+ON
+	OnCharacterStatusRemoved(_Character, "CAMP_DAISY_EXHAUSTED")
+	OnCharacterStatusRemoved(_Character, "CAMP_DAISY_SICK")
+ACTIONS
+	CharacterApplyStatus(_Character,"MONK_TADPOLE_FINDMONK", 1)
+
+
+
+
+

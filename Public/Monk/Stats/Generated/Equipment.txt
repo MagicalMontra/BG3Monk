@@ -1,0 +1,26 @@
+new equipment "_Custom_Equipment"
+
+new equipment "EQP_Monk"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "ARM_Robes_Body"
+add equipmentgroup
+add equipment entry "AMX_MONK_WATER"
+add equipmentgroup
+add equipment entry "AMX_MONK_DARKNESS"
+add equipmentgroup
+add equipment entry "AMX_MONK_FIRE"
+add equipmentgroup
+add equipment entry "AMX_MONK_LIGHT"
+add equipmentgroup
+add equipment entry "WPN_Quarterstaff"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "WPN_Shortbow"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_Revivify"

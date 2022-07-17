@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="48"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="|Tag indicates monk can use monk attack abilities.|"/>
+			<attribute id="DisplayDescription" type="TranslatedString" value="Monks use discipline and ritual to harness the energy inside their bodies, transforming it into explosive power. They excel at unarmed combat, for their defense is as strong as their spirit." handle="hfc55e774gd4f7g4252g81b6gbe81520a6b5f"/>
+            <attribute id="DisplayName" type="TranslatedString" value="MONK" handle="hb3d41e7agfc46g4ebbg8d69g639e81a74687"/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="MONK_TADPOLE"/>
+            <attribute id="UUID" type="guid" value="dbbb5a43-a45f-4d6e-b6dd-eba372e8f29c"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

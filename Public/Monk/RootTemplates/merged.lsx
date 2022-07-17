@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="88" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects"> Emissary of Water 3
+					<attribute id="Description" type="TranslatedString" handle="h8665c476g6d05g4ec5g961bg1235079dff19" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc9873d1ag83acg4d86ga8a4gdc40e298108f" version="1" />					
+					<attribute id="Icon" type="FixedString" value="AMX_Item_AMX_EMISSARY_WATER_3" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="35bf2871-9b1c-462a-8f7d-35d589093df5" />
+					<attribute id="Name" type="LSString" value="AMX_MONK_WATER" />
+					<attribute id="ParentTemplateId" type="FixedString" value="63cc7723-245d-4b62-b9e6-5a47283cf777" /> Points to ARM_Padded_Body
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="AMX_MONK_WATER" /> 					
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="2" />
+							<attribute id="VisualSetSlot" type="uint32" value="0" />
+							<children>
+								<node id="LongHair" />
+								<node id="ShortHair" />
+								<node id="ParentRace" />								
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>	
+							</children>
+						</node>
+						<node id="Visuals">
+							<children>	
+								<node id="Object">
+									<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-3ba1-ac2c98f3055d" /> Human_Male
+									<children>
+										<node id="MapValue">
+											<attribute id="Object" type="FixedString" value="cf0b7dc7-e915-43eb-aac1-ab5fdfbdc3c0" /> ARM_Jaheira_0_Body_AMX_1B Water
+										</node>
+										<node id="MapValue">
+											<attribute id="Object" type="FixedString" value="784e9fc8-01b9-4282-bf78-e7b6323ab196" /> ARM_Jaheira_0_Pants Water
+										</node>													
+										<node id="MapValue">
+											<attribute id="Object" type="FixedString" value="027ab48e-868e-4ffd-87a0-f14e2e5173da" /> ARM_Jaheira_0_Body_AMX_Belt Water
+										</node>																			
+									</children>
+								</node>									
+								<node id="Object">
+									<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-1fb7-1a911969587f" /> Human_Female
+									<children>				
+										<node id="MapValue">
+											<attribute id="Object" type="FixedString" value="9458dbd7-3c63-4e10-9b9f-185a2ada9d5d" /> HUM_F_ARM_Jaheira_0_Body_AMX_1B Water
+										</node>		
+										<node id="MapValue">
+											<attribute id="Object" type="FixedString" value="00c2080f-e2f5-4a5f-9bd2-9a6585099d85" /> ARM_Jaheira_0_Pants Water
+										</node>	
+										<node id="MapValue">
+											<attribute id="Object" type="FixedString" value="98973665-7ad4-43ea-8a37-8be5e7941d96" /> HUM_F_ARM_Jaheira_0_Body_AMX_Belt Water
+										</node>																							
+									</children>	
+								</node>																			
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> Emissary of Fire 3
+					<attribute id="Description" type="TranslatedString" handle="he832448dg57ceg4d39ga123g1e098424b016" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h294cb2a6g4119g494bga6abg2c14db9c572d" version="1" />					
+					<attribute id="Icon" type="FixedString" value="AMX_Item_AMX_EMISSARY_FIRE_3" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="17d197d1-9dae-401e-9793-bc5d25de300f" />
+					<attribute id="Name" type="LSString" value="AMX_MONK_FIRE" />
+					<attribute id="ParentTemplateId" type="FixedString" value="63cc7723-245d-4b62-b9e6-5a47283cf777" /> Points to ARM_Padded_Body
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="AMX_MONK_FIRE" /> 					
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="2" />
+							<attribute id="VisualSetSlot" type="uint32" value="0" />
+							<children>
+								<node id="LongHair" />
+								<node id="ShortHair" />
+								<node id="ParentRace" />								
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>						
+								<node id="Visuals">
+									<children>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-3ba1-ac2c98f3055d" /> Human_Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="8811587f-d439-4fd3-bb3c-8f5a9edf0b73" /> ARM_Jaheira_0_Body_AMX_1B Fire
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="24a95697-e0f9-4729-9a4c-1c8c74eb0293" /> ARM_Jaheira_0_Pants Fire
+												</node>													
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="0bd10c32-f566-49a6-91ca-5ce5134ed220" /> ARM_Jaheira_0_Body_AMX_Belt Fire
+												</node>																			
+											</children>
+										</node>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-1fb7-1a911969587f" /> Human_Female
+											<children>				
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="2ce27e08-909b-46e2-8d0f-ab3d93b6d3df" /> HUM_F_ARM_Jaheira_0_Body_AMX_1B Fire
+												</node>		
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="0d4aa1bd-c260-468d-aca3-1381e2088d7b" /> ARM_Jaheira_0_Pants Fire
+												</node>	
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="6046c7c4-9b55-4c5a-9db1-c46927704d11" /> HUM_F_ARM_Jaheira_0_Body_AMX_Belt Fire
+												</node>																		
+											</children>	
+										</node>																			
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>		
+				<node id="GameObjects"> Emissary of Light 3
+					<attribute id="Description" type="TranslatedString" handle="had5bbe16g9300g463dg9280g829de2d0ef83" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h95f46b4dg768ag4718g9caegb5e5eb593993" version="1" />					
+					<attribute id="Icon" type="FixedString" value="AMX_Item_AMX_EMISSARY_LIGHT_3" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="efaea2a1-6543-4474-a082-e8b2576ada7f" />
+					<attribute id="Name" type="LSString" value="AMX_MONK_LIGHT" />
+					<attribute id="ParentTemplateId" type="FixedString" value="63cc7723-245d-4b62-b9e6-5a47283cf777" /> Points to ARM_Padded_Body
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="AMX_MONK_LIGHT" /> 					
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="2" />
+							<attribute id="VisualSetSlot" type="uint32" value="0" />
+							<children>
+								<node id="LongHair" />
+								<node id="ShortHair" />
+								<node id="ParentRace" />								
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>						
+								<node id="Visuals">
+									<children>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-3ba1-ac2c98f3055d" /> Human_Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="07be3629-4c5f-427b-b095-fe0b2076ddc3" /> ARM_Jaheira_0_Body_AMX_1B Light
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="2b461ba4-b569-46dc-b76f-363f150d6f87" /> ARM_Jaheira_0_Pants Light
+												</node>													
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="5c383fe5-c73b-4cb8-8866-948653995da1" /> ARM_Jaheira_0_Body_AMX_Belt Light
+												</node>																			
+											</children>
+										</node>									
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-1fb7-1a911969587f" /> Human_Female
+											<children>				
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9887258b-7d51-48f7-a1bc-c4a06507a189" /> HUM_F_ARM_Jaheira_0_Body_AMX_1B Light
+												</node>		
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="5432a284-de57-4c46-b581-21321a2d58e8" /> ARM_Jaheira_0_Pants Light
+												</node>	
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="f335f40c-8e11-4ecc-b079-2ca7e5bd0ef5" /> HUM_F_ARM_Jaheira_0_Body_AMX_Belt Light
+												</node>			
+											</children>	
+										</node>																			
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>			
+				<node id="GameObjects"> Emissary of Darkness 3
+					<attribute id="Description" type="TranslatedString" handle="h4fab01e5g7982g4dfag9ef6gbaa9e35c69a2" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h367c2979ga10cg48cfgb3feg5e5318ebfa1c" version="1" />					
+					<attribute id="Icon" type="FixedString" value="AMX_Item_AMX_EMISSARY_DARKNESS_3" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="4a13955f-8dfa-42af-90b5-54757745c0d6" />
+					<attribute id="Name" type="LSString" value="AMX_MONK_DARKNESS" />
+					<attribute id="ParentTemplateId" type="FixedString" value="63cc7723-245d-4b62-b9e6-5a47283cf777" /> Points to ARM_Padded_Body
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="AMX_MONK_DARKNESS" /> 					
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="2" />
+							<attribute id="VisualSetSlot" type="uint32" value="0" />
+							<children>
+								<node id="LongHair" />
+								<node id="ShortHair" />
+								<node id="ParentRace" />								
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>						
+								<node id="Visuals">
+									<children>	
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-3ba1-ac2c98f3055d" /> Human_Male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="30bb05ce-9ed1-4be9-9794-36b620a44067" /> ARM_Jaheira_0_Body_AMX_1B Darkness
+												</node>		
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="b3a4541e-3b33-45d5-94bd-1bf7e8e373c8" /> ARM_Jaheira_0_Pants Darkness
+												</node>													
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="decf0cf6-9a38-4f12-b81a-af1ff1c7151f" /> ARM_Jaheira_0_Body_AMX_Belt Darkness
+												</node>																			
+											</children>
+										</node>									
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-1fb7-1a911969587f" /> Human_Female
+											<children>				
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="9baf363d-1ff3-44d7-b67b-1427018d053d" /> HUM_F_ARM_Jaheira_0_Body_AMX_1B Darkness
+												</node>		
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="fa35dfc3-f1d0-4b88-9255-2ebe45c0e589" /> ARM_Jaheira_0_Pants Darkness
+												</node>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="b3f3118a-80f2-474d-8e92-6d0546ec8efe" /> HUM_F_ARM_Jaheira_0_Body_AMX_Belt Darkness
+												</node>																					
+											</children>	
+										</node>																			
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>							
+			</children>
+		</node>
+	</region>
+</save>									

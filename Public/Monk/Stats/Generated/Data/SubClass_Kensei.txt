@@ -1,0 +1,45 @@
+//new entry "AgileParry"
+//type "PassiveData"
+//data "DisplayName" "Agile Parry"
+//data "Description" "While you have your kensei weapon equipped if you make an unarmed attack on your turn you gain a +2 to AC until the start of your next turn."
+//data "Icon" "Icon_AgileParry"
+//data "Conditions" "SpellId('Target_MartialArts') or IsUnarmedAttack()"
+//data "StatsFunctors" "ApplyStatus(SELF,AGILEPARRY,100,1)"
+//data "StatsFunctorContext" "OnAttack"
+
+new entry "AgileParry"
+type "PassiveData"
+data "DisplayName" "Agile Parry"
+data "Description" "While you have your kensei weapon equipped if you make an unarmed attack on your turn you gain a +2 to AC until the start of your next turn."
+data "Icon" "Icon_AgileParry"
+data "Conditions" "SpellId('Target_MartialArts')"
+data "StatsFunctors" "ApplyStatus(SELF,AGILEPARRY,100,1)"
+data "StatsFunctorContext" "OnAttack"
+
+
+// Original
+//data "Conditions" "IsUnarmedAttack() and HasStatus('KENSEIWEAPON',GetActiveWeapon())"//
+
+new entry "AGILEPARRY"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "Agile Parry"
+data "Description" "You are using your kensei weapon to defend yourself."
+data "Icon" "Icon_AgileParry"
+data "Boosts" "AC(2)"
+data "StatusPropertyFlags" "DisableCombatLog;ApplyToDead;IgnoreResting"
+
+//data "RemoveConditions" "not HasStatus('KENSEIWEAPON',GetActiveWeapon()"//
+//data "RemoveEvents" "OnEquip;OnUnequip"//
+
+new entry "KenseiShot"
+type "PassiveData"
+data "DisplayName" "Kensei's Shot"
+data "Description" "Deal 1d4 additional weapons damage when you attack with a ranged Kensei weapon and spend a bonus action"
+data "Icon" "Action_Steady"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn;OncePerTurn"
+data "Conditions" "IsAttackType(AttackType.RangedWeaponAttack) and (HasDamageEffectFlag(DamageFlags.Hit) or HasDamageEffectFlag(DamageFlags.Critical)) and not (IsCriticalMiss() or IsMiss()) and HasStatus('KENSEIWEAPON',GetActiveWeapon()) and HasActionResource('BonusActionPoint', 1, 0, false, context.Source)"
+data "StatsFunctors" "UseActionResource(SELF,BonusActionPoint,1);DealDamage(1d4,MainRangedWeaponDamageType)"
+data "StatsFunctorContext" "OnAttack"
+
+

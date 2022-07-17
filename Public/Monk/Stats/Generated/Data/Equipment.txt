@@ -1,0 +1,1238 @@
+new equipment "_PC_Equipment"
+
+new equipment "EQP_Unarmed"
+add initialweaponset "Melee"
+
+new equipment "EQP_CC_Cleric"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Mace"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_Revivify"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "ARM_Boots_Leather"
+add equipmentgroup
+add equipment entry "ARM_ChainShirt_Body"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_Revivify"
+
+new equipment "EQP_CC_Fighter"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "WPN_Shortbow"
+add equipmentgroup
+add equipment entry "ARM_Boots_Leather"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_Revivify"
+
+new equipment "EQP_CC_Ranger"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Shortbow"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "ARM_Boots_Leather"
+add equipmentgroup
+add equipment entry "OBJ_GreaseBottle"
+add equipmentgroup
+add equipment entry "OBJ_GreaseBottle"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_Revivify"
+
+new equipment "EQP_CC_Rogue"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Shortbow"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "OBJ_Kit_ThievesTools"
+add equipmentgroup
+add equipment entry "OBJ_GreaseBottle"
+add equipmentgroup
+add equipment entry "OBJ_GreaseBottle"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "ARM_Boots_Leather"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body_Rogue"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_Revivify"
+
+new equipment "EQP_CC_Warlock"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "ARM_Shoes"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "ARM_Padded_Body"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_Revivify"
+
+new equipment "EQP_CC_Wizard"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Quarterstaff"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "ARM_Shoes"
+add equipmentgroup
+add equipment entry "ARM_Robe_Body"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_Revivify"
+
+new equipment "_NPC_Equipment"
+
+new equipment "EQP_Staff"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Quarterstaff"
+
+new equipment "EQP_Staff_Robe"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Quarterstaff"
+add equipmentgroup
+add equipment entry "ARM_Robe_Body"
+
+new equipment "EQP_Staff_Leather"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Quarterstaff"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Staff_ChainMail"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Quarterstaff"
+add equipmentgroup
+add equipment entry "ARM_ChainMail_Body"
+
+new equipment "EQP_Dagger"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+
+new equipment "EQP_Dagger_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+
+new equipment "EQP_Dagger_Leather"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Dagger_Leather_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Dagger_Robe"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "ARM_Robe_Body"
+
+new equipment "EQP_Dagger_Robe_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "ARM_Robe_Body"
+
+new equipment "EQP_Axe"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+
+new equipment "EQP_Axe_Leather"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Axe_Leather_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Axe_Leather_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Axe_ScaleMail"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Axe_ScaleMail_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Axe_ScaleMail_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Axe_Plate"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Axe_Plate_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Axe_Plate_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Hammer_ChainMail_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_LightHammer"
+add equipmentgroup
+add equipment entry "ARM_ChainMail_Body"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+
+new equipment "EQP_Rapier"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Rapier"
+
+new equipment "EQP_Rapier_Leather"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Rapier"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Rapier_Studded"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Rapier"
+add equipmentgroup
+add equipment entry "ARM_StuddedLeather_Body"
+
+new equipment "EQP_Rapier_Leather_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Rapier"
+add equipmentgroup
+add equipment entry "WPN_Rapier"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Rapier_Studded_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Rapier"
+add equipmentgroup
+add equipment entry "WPN_Rapier"
+add equipmentgroup
+add equipment entry "ARM_StuddedLeather_Body"
+
+new equipment "EQP_Scimitar"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Scimitar"
+
+new equipment "EQP_Scimitar_Leather"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Scimitar"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Scimitar_Leather_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Scimitar"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+
+new equipment "EQP_Scimitar_Leather_Dagger"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Scimitar"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Scimitar_Leather_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Scimitar"
+add equipmentgroup
+add equipment entry "WPN_Scimitar"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Shortsword"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+
+new equipment "EQP_Shortsword_Robe"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "ARM_Robe_Body"
+
+new equipment "EQP_Shortsword_Leather"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Shortsword_Leather_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Shortsword_Leather_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Shortsword_Scalemail"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Shortsword_ScaleMail_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Shortsword_ScaleMail_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Shortsword_Plate"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Shortsword_Plate_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Shortsword_Plate_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Longsword"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+
+new equipment "EQP_Longsword_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+
+new equipment "EQP_Longsword_Leather"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Longsword_Leather_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Longsword_Leather_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Longsword_ScaleMail"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Longsword_ScaleMail_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Longsword_ScaleMail_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Longsword_Plate"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Longsword_Plate_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Longsword_HalfPlate_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_HalfPlate_Body"
+
+new equipment "EQP_Longsword_Plate_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Longsword_Scalemail_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Mace"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Mace"
+
+new equipment "EQP_Javelin"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+
+new equipment "EQP_Javelin_Leather"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Javelin_Leather_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Javelin_ScaleMail"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Javelin_Plate"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Spear"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Spear"
+
+new equipment "EQP_Spear_Leather"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Spear"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Spear_ScaleMail"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Spear"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Spear_Plate"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Spear"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Greatsword"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greatsword"
+
+new equipment "EQP_Greatsword_ScaleMail"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greatsword"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Greatsword_Plate"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greatsword"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_GreatAxe"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greataxe"
+
+new equipment "EQP_GreatAxe_ScaleMail"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greataxe"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_GreatAxe_Plate"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greataxe"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Club"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Club"
+
+new equipment "EQP_Club_Leather"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Club"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Club_Leather_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Club"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Club_ScaleMail"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Club"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Club_ScaleMail_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Club"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Club_RingMail"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Club"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Club_RingMail_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Club"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_RingMail_Body"
+
+new equipment "EQP_Club_Plate"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Club"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Club_Plate_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Club"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Greatclub"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greatclub"
+
+new equipment "EQP_Greatclub_Leather"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greatclub"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Greatclub_ScaleMail"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greatclub"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Greatclub_RingMail"
+add equipmentgroup
+add equipment entry "WPN_Greatclub"
+add equipmentgroup
+add equipment entry "ARM_RingMail_Body"
+
+new equipment "EQP_Greatclub_HalfPlate"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greatclub"
+add equipmentgroup
+add equipment entry "ARM_HalfPlate_Body"
+
+new equipment "EQP_Greatclub_Plate"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greatclub"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Crossbow"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_LightCrossbow"
+
+new equipment "EQP_Crossbow_Leather"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_LightCrossbow"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Crossbow_ScaleMail"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_LightCrossbow"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Crossbow_Plate"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_LightCrossbow"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_HandCrossbow"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_HandCrossbow"
+
+new equipment "EQP_HandCrossbow_Leather"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_HandCrossbow"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_HandCrossbow_Leather_DW"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_HandCrossbow"
+add equipmentgroup
+add equipment entry "WPN_HandCrossbow"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_HandCrossbow_ScaleMail"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_HandCrossbow"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_HandCrossbow_ScaleMail_DW"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_HandCrossbow"
+add equipmentgroup
+add equipment entry "WPN_HandCrossbow"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_HandCrossbow_Plate"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_HandCrossbow"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_HandCrossbow_Plate_DW"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_HandCrossbow"
+add equipmentgroup
+add equipment entry "WPN_HandCrossbow"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_HeavyCrossbow"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_HeavyCrossbow"
+
+new equipment "EQP_HeavyCrossbow_ScaleMail"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_HeavyCrossbow"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Shortbow"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Shortbow"
+
+new equipment "EQP_Shortbow_Leather"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Shortbow"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Shortbow_ScaleMail"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Shortbow"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Shortbow_Plate"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Shortbow"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Longbow"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Longbow"
+
+new equipment "EQP_Longbow_Robe"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Longbow"
+add equipmentgroup
+add equipment entry "ARM_Robe_Body"
+
+new equipment "EQP_Longbow_Leather"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Longbow"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Longbow_StuddedLeather"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Longbow"
+add equipmentgroup
+add equipment entry "ARM_StuddedLeather_Body"
+
+new equipment "EQP_Longbow_RingMail"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Longbow"
+add equipmentgroup
+add equipment entry "ARM_RingMail_Body"
+
+new equipment "EQP_Longbow_ScaleMail"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Longbow"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Longbow_Plate"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Longbow"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Duergar_Melee_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Duergar_GreatAxe"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greataxe"
+
+new equipment "EQP_Duergar_GreatAxe_ScaleMail"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greataxe"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Duergar_Crossbow"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_HeavyCrossbow"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Duergar_Crossbow_StuddedLeather"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_HeavyCrossbow"
+add equipmentgroup
+add equipment entry "ARM_StuddedLeather_Body"
+
+new equipment "EQP_Warhammer"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Warhammer"
+
+new equipment "EQP_Warhammer_Studded"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Warhammer"
+add equipmentgroup
+add equipment entry "ARM_StuddedLeather_Body"
+
+new equipment "EQP_Warhammer_Plate"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Warhammer"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+
+new equipment "EQP_Robe"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "ARM_Robe_Body"
+
+new equipment "_Combat_Equipment"
+
+new equipment "EQP_Automaton_Halberd"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Automaton_Halberd"
+
+new equipment "EQP_Bugbear_MorningStar"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Bugbear_Morningstar"
+
+new equipment "EQP_Goblin_Scimitar_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Goblin_Scimitar"
+add equipmentgroup
+add equipment entry "ARM_Goblin_Shield_C"
+
+new equipment "EQP_Goblin_Scimitar_Shield_Absolute"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Goblin_Scimitar"
+add equipmentgroup
+add equipment entry "ARM_Goblin_Shield_D"
+
+new equipment "EQP_Goblin_Mace_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Goblin_Mace"
+add equipmentgroup
+add equipment entry "ARM_Goblin_Shield_A"
+
+new equipment "EQP_Goblin_Mace_Shield_Absolute"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Goblin_Mace"
+add equipmentgroup
+add equipment entry "ARM_Goblin_Shield_D"
+
+new equipment "EQP_Goblin_Spear"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Goblin_Spear"
+
+new equipment "EQP_Goblin_Axe"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+
+new equipment "EQP_Goblin_Axe_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+
+new equipment "EQP_Goblin_Axe_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "ARM_Goblin_Shield_A"
+
+new equipment "EQP_Goblin_Axe_Shield_Absolute"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "ARM_Goblin_Shield_D"
+
+new equipment "EQP_Goblin_Greataxe"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greataxe"
+
+new equipment "EQP_Goblin_Axe_Shortbow"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Greataxe"
+add equipmentgroup
+add equipment entry "WPN_Goblin_Shortbow"
+
+new equipment "EQP_Goblin_Greatclub"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Goblin_Greatclub"
+
+new equipment "EQP_Goblin_Scimitar"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Goblin_Scimitar"
+
+new equipment "EQP_Goblin_Scimitar_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Goblin_Scimitar"
+add equipmentgroup
+add equipment entry "WPN_Goblin_Scimitar"
+
+new equipment "EQP_Goblin_Shortbow"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Goblin_Shortbow"
+
+new equipment "EQP_Goblin_Staff"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Goblin_Quarterstaff"
+
+new equipment "EQP_Gnoll_Spear"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Gnoll_Spear"
+
+new equipment "EQP_Gnoll_Bow"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Gnoll_Bow"
+
+new equipment "EQP_Gnoll_Flail"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Gnoll_Flind_Flail"
+
+new equipment "EQP_Gnoll_Flind"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Gnoll_Flind_Flail"
+
+new equipment "EQP_Gnoll_Sword"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Gnoll_Sword"
+
+new equipment "EQP_Gnoll_Sword_DW"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Gnoll_Sword"
+add equipmentgroup
+add equipment entry "WPN_Gnoll_Sword"
+
+new equipment "EQP_Harpy_Club"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Harpy_Club"
+
+new equipment "EQP_Imp_Handaxe"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Imp_Handaxe"
+
+new equipment "EQP_Imp_Scimitar"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Imp_Scimitar"
+
+new equipment "EQP_Imp_Sickle"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Imp_Sickle"
+
+new equipment "EQP_Imp_Shortsword"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Imp_Shortsword"
+
+new equipment "EQP_Imp_Crossbow"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Imp_HeavyCrossbow"
+
+new equipment "EQP_Kuotoa_Spear"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Kuotoa_Spear"
+
+new equipment "EQP_Kuotoa_Spear_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Kuotoa_Spear"
+add equipmentgroup
+add equipment entry "ARM_Goblin_Shield_A"
+
+new equipment "EQP_Kuotoa_Crossbow"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Kuotoa_LightCrossbow"
+
+new equipment "EQP_Meazel_Shortsword"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Meazel_Shortsword"
+
+new equipment "EQP_Minotaur_Greataxe"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Minotaur_Greataxe"
+
+new equipment "EQP_Minotaur_Greatclub"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Minotaur_Greatclub"
+
+new equipment "EQP_Nimblewright"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Nimblewright_Rapier"
+add equipmentgroup
+add equipment entry "WPN_Nimblewright_Dagger"
+
+new equipment "EQP_Ogre_Club"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Ogre_Club"
+
+new equipment "EQP_Ogre_Greatclub"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Ogre_Greatclub"
+
+new equipment "EQP_Redcap_Sickle"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Redcap_Sickle"
+
+new equipment "EQP_Redcap_Staff"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Redcap_Staff"
+
+new equipment "EQP_WoodWoad_Club_Shield"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_WoodWoad_Club"
+add equipmentgroup
+add equipment entry "ARM_WoodWoad_Shield"
+
+new equipment "EQP_WoodWoad_Greatclub"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_WoodWoad_Greatclub"
+
+new equipment "_Custom_Equipment"
+
+new equipment "EQP_Daisy"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "UNI_DaisyDress"
+add equipmentgroup
+add equipment entry "WPN_Quarterstaff"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_Revivify"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_MageArmor"

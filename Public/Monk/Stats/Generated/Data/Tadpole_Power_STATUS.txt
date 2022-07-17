@@ -1,0 +1,25 @@
+// Monk Tadpole Power-----------------------------------------------------//
+
+new entry "MONK_TADPOLE_FINDMONK"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "MONK_TADPOLE_FINDMONK"
+data "AuraRadius" "99"
+data "AuraStatuses" "TARGET:IF(Tagged('MONK')):ApplyStatus(MONK_TADPOLE_APPLYTADPOLEPOWER)"
+data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator;DisableCombatlog;IgnoreResting"
+
+new entry "MONK_TADPOLE_APPLYTADPOLEPOWER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "MONK_TADPOLE_APPLYTADPOLEPOWER"
+data "OnApplyFunctors" "IF(not HasStatus('MONK_TADPOLE_UNLOCKED', context.Target)):ApplyStatus(MONK_TADPOLE_UNLOCKED,100,-1)"
+data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator;DisableCombatlog;IgnoreResting"
+
+new entry "MONK_TADPOLE_UNLOCKED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "Elemental Warrior Unlock tadpole power"
+data "Description" "Elemental Warrior Unlock tadpole power"
+data "StackId" "MONK_TADPOLE_UNLOCKED"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead;IgnoreResting"
+data "Boosts" "UnlockSpell(Target_MindFlurry)"

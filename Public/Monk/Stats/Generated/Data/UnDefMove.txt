@@ -1,0 +1,26 @@
+new entry "UnarmoredDefense_Monk"
+type "PassiveData"
+data "DisplayName" "Unarmored Defense"
+data "Description" "When not wearing armor or having a shield equipped your AC is equal to 10+Dexterity+Wisdom"
+data "Icon" "Spell_Transmutation_Longstrider"
+data "Boosts" "ACOverrideFormula(10,true,Dexterity,Wisdom))"
+data "BoostConditions" "not HasShieldEquipped(context.Source) and not WearingArmor(context.Source)
+data "BoostContext" "OnEquip;OnCreate;OnUnequip"
+
+new entry "UnarmoredMovement1"
+type "PassiveData"
+data "DisplayName" "UnarmoredMovement"
+data "Description" "Your movement speed is increased by 10ft"
+data "Icon" "Spell_Transmutation_Longstrider"
+
+new entry "UnarmoredMovement2"
+type "PassiveData"
+data "DisplayName" "UnarmoredMovement"
+data "Description" "Your movement speed is now increased by 15ft"
+data "Icon" "Spell_Transmutation_Longstrider"
+
+new entry "UnarmoredMovement3"
+type "PassiveData"
+data "DisplayName" "UnarmoredMovement"
+data "Description" "Your movement speed is now increased by 20ft"
+data "Icon" "Spell_Transmutation_Longstrider"

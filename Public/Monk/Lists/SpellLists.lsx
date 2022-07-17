@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="88"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>            
+	<node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Shout_StepOfTheWind_Container;Shout_PatientDefense;"/>
+                    <attribute id="UUID" type="guid" value="6db759be-2866-425b-b9ea-884bf95bd5e9"/>
+	</node>
+	<node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Target_FlurryS_Area;Target_FlurryS_Strike"/>
+                    <attribute id="UUID" type="guid" value="8ca8ecc1-6b64-4b99-987e-2de070873d76"/>
+	</node>
+	<node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Target_FlurryD_Area;Target_FlurryD_Strike"/>
+                    <attribute id="UUID" type="guid" value="e14d6e78-d091-4580-be24-885c75827138"/>
+	</node>
+            </children>
+        </node>
+    </region>
+</save>

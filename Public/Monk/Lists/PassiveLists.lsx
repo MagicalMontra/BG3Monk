@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="88"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="FangsOfTheFireSnake,FistOfFourThunders,FistOfUnbrokenAir,RushOfTheGaleSpirits,SweepingCinderStrike,WaterWhip"/>
+                    <attribute id="UUID" type="guid" value="622dc521-8157-4d75-91b8-f7890ec0902c"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="FangsOfTheFireSnake,FistOfFourThunders,FistOfUnbrokenAir,RushOfTheGaleSpirits,SweepingCinderStrike,WaterWhip,ClenchOfTheNorthWind,GongOfTheSummit"/>
+                    <attribute id="UUID" type="guid" value="ee7bd570-1479-442e-96f7-6dcc1858c89d"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="FangsOfTheFireSnake,FistOfFourThunders,FistOfUnbrokenAir,RushOfTheGaleSpirits,SweepingCinderStrike,WaterWhip,ClenchOfTheNorthWind,GongOfTheSummit,FlamesOfThePhoenix,MistStance,RideTheWInd"/>
+                    <attribute id="UUID" type="guid" value="de3cd55d-12d0-4d7e-893a-fecdfe9f9822"/>
+                </node>
+                <node id="PassiveList"> Melee Weapons
+                    <attribute id="Passives" type="LSString" value="KW_Baxe,KW_Club,KW_Dagger,KW_Flail,KW_GClub,KW_Haxe,KW_Jav,KW_LHam,KW_LSwd,KW_Mace,KW_MStar,KW_QStaf,KW_Rap,KW_Scim,KW_SSwd,KW_Skl,KW_Spear,KW_Trid,KW_WHam,KW_Pck"/>
+                    <attribute id="UUID" type="guid" value="4d637fda-2f1c-4ef4-b374-44f8986696ea"/>
+                </node>
+                <node id="PassiveList"> Ranged Weapons
+                    <attribute id="Passives" type="LSString" value="KW_Dart,KW_HXBow,KW_LXBow,KW_LBow,KW_SBow,KW_Slng"/>
+                    <attribute id="UUID" type="guid" value="c830db40-8657-4ea9-aa20-80bbab1dc0b2"/>
+                </node>
+                <node id="PassiveList"> All Weapons
+                    <attribute id="Passives" type="LSString" value="KW_Baxe,KW_Club,KW_Dagger,KW_Flail,KW_GClub,KW_Haxe,KW_Jav,KW_LHam,KW_LSwd,KW_Mace,KW_MStar,KW_QStaf,KW_Rap,KW_Scim,KW_SSwd,KW_Skl,KW_Spear,KW_Trid,KW_WHam,KW_Pck,KW_Dart,KW_HXBow,KW_LXBow,KW_LBow,KW_SBow,KW_Slng"/>
+                    <attribute id="UUID" type="guid" value="3d11705e-9165-4b2b-8e52-8caf6dd878a8"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

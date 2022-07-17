@@ -16,6 +16,10 @@
                     <attribute id="Spells" type="LSString" value="Target_FlurryD_Area;Target_FlurryD_Strike"/>
                     <attribute id="UUID" type="guid" value="e14d6e78-d091-4580-be24-885c75827138"/>
 	</node>
+	<node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Target_DeftStrike_Melee;Target_DeftStrike_Ranged"/>
+                    <attribute id="UUID" type="guid" value="9d6f529d-dc70-400f-81e9-59a944a13fd6"/>
+	</node>
             </children>
         </node>
     </region>

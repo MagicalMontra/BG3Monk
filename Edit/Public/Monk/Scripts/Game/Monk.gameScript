@@ -990,7 +990,7 @@ ACTIONS
 	THEN
 		CharacterApplyStatus(_Character, "MARTS_STR",-1)
 		CharacterRemoveStatus(_Character,"MARTS_DEX")
-		DisplayText(_Character,"MartialArts Strength")
+		DisplayText(_Character,"Martial Arts Strength")
 	ELIF "c1&c2&c3&c4&!c5"
 		IsTagged(_Character, "MONK")
 		CharacterGetStat(_Dex,_Character,Dexterity)
@@ -1000,7 +1000,7 @@ ACTIONS
 	THEN
 		CharacterApplyStatus(_Character,"MARTS_DEX",-1)
 		CharacterRemoveStatus(_Character,"MARTS_STR",-1)
-		DisplayText(_Character,"MartialArts Dexterity")
+		DisplayText(_Character,"Martial Arts Dexterity")
 	ENDIF
 
 // Monk Tadpole Power
